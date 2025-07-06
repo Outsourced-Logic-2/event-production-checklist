@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Production Checklist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="container">
+                <div class="header-content">
+                    <div class="header-title">
+                        <h1>Event Production Checklist</h1>
+                        <p class="header-subtitle">Professional Production Management System</p>
+                    </div>
+                    <div class="header-actions">
+                        <div class="progress-summary">
+                            <div class="overall-progress">
+                                <span class="progress-label">Overall Progress</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" id="overall-progress-fill"></div>
+                                </div>
+                                <span class="progress-text" id="overall-progress-text">0%</span>
+                            </div>
+                        </div>
+                        <div class="filter-controls">
+                            <select id="role-filter" class="form-control">
+                                <option value="all">All Roles</option>
+                                <option value="Production Manager">Production Manager</option>
+                                <option value="Stage Manager">Stage Manager</option>
+                                <option value="Technical Director">Technical Director</option>
+                            </select>
+                            <button id="export-btn" class="btn btn--secondary">Export Progress</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="app-main">
+            <div class="container">
+                <!-- Phase Sections -->
+                <div class="phases-container" id="phases-container">
+                    <!-- Dynamic phase cards will be inserted here -->
+                </div>
+
+                <!-- Emergency Protocols -->
+                <section class="emergency-protocols" id="emergency-protocols">
+                    <div class="card">
+                        <div class="card__header">
+                            <h2>Emergency Protocols</h2>
+                            <button class="btn btn--outline btn--sm" id="toggle-emergency">
+                                <span class="toggle-text">Show</span>
+                            </button>
+                        </div>
+                        <div class="emergency-content" id="emergency-content">
+                            <!-- Emergency protocols will be inserted here -->
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="app-footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-stats">
+                        <div class="stat-item">
+                            <span class="stat-label">Total Tasks</span>
+                            <span class="stat-value" id="total-tasks">78</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Completed</span>
+                            <span class="stat-value" id="completed-tasks">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Remaining</span>
+                            <span class="stat-value" id="remaining-tasks">78</span>
+                        </div>
+                    </div>
+                    <div class="footer-actions">
+                        <button id="reset-progress" class="btn btn--outline btn--sm">Reset Progress</button>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Export Modal -->
+        <div class="modal-overlay" id="export-modal">
+            <div class="modal">
+                <div class="modal-header">
+                    <h3>Export Progress Report</h3>
+                    <button class="modal-close" id="close-export-modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <textarea id="export-content" readonly></textarea>
+                </div>
+                <div class="modal-footer">
+                    <button id="copy-report" class="btn btn--primary">Copy to Clipboard</button>
+                    <button id="download-report" class="btn btn--secondary">Download Report</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

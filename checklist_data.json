@@ -1,0 +1,553 @@
+{
+  "phases": [
+    {
+      "id": "pre_production",
+      "title": "Pre-Production Phase",
+      "timeline": "8-12 weeks before event",
+      "description": "Initial planning and strategy, documentation and contracts, and team assembly",
+      "tasks": [
+        {
+          "id": "pp_1",
+          "task": "Define event scope, budget, and timeline",
+          "role": "Production Manager",
+          "priority": "critical"
+        },
+        {
+          "id": "pp_2",
+          "task": "Secure venue contracts and permits",
+          "role": "Production Manager",
+          "priority": "critical"
+        },
+        {
+          "id": "pp_3",
+          "task": "Establish production team hierarchy",
+          "role": "Production Manager",
+          "priority": "high"
+        },
+        {
+          "id": "pp_4",
+          "task": "Create master production schedule",
+          "role": "Production Manager",
+          "priority": "critical"
+        },
+        {
+          "id": "pp_5",
+          "task": "Develop contingency plans for weather/emergencies",
+          "role": "Production Manager",
+          "priority": "high"
+        },
+        {
+          "id": "pp_6",
+          "task": "Finalize technical rider requirements",
+          "role": "Technical Director",
+          "priority": "critical"
+        },
+        {
+          "id": "pp_7",
+          "task": "Book key vendors and suppliers",
+          "role": "Production Manager",
+          "priority": "critical"
+        },
+        {
+          "id": "pp_8",
+          "task": "Create production communication matrix",
+          "role": "Production Manager",
+          "priority": "high"
+        },
+        {
+          "id": "pp_9",
+          "task": "Establish version control system for documents",
+          "role": "Production Manager",
+          "priority": "high"
+        },
+        {
+          "id": "pp_10",
+          "task": "Set up project management tools",
+          "role": "Production Manager",
+          "priority": "medium"
+        },
+        {
+          "id": "pp_11",
+          "task": "Create preliminary run-of-show outline",
+          "role": "Stage Manager",
+          "priority": "high"
+        },
+        {
+          "id": "pp_12",
+          "task": "Establish crew roles and responsibilities",
+          "role": "Production Manager",
+          "priority": "high"
+        },
+        {
+          "id": "pp_13",
+          "task": "Set up insurance and liability coverage",
+          "role": "Production Manager",
+          "priority": "critical"
+        },
+        {
+          "id": "pp_14",
+          "task": "Create master contact database",
+          "role": "Production Manager",
+          "priority": "high"
+        },
+        {
+          "id": "pp_15",
+          "task": "Develop production budget tracking system",
+          "role": "Production Manager",
+          "priority": "high"
+        },
+        {
+          "id": "pp_16",
+          "task": "Schedule key production meetings",
+          "role": "Production Manager",
+          "priority": "medium"
+        },
+        {
+          "id": "pp_17",
+          "task": "Create preliminary crew manifest",
+          "role": "Production Manager",
+          "priority": "medium"
+        },
+        {
+          "id": "pp_18",
+          "task": "Establish catering and hospitality requirements",
+          "role": "Production Manager",
+          "priority": "medium"
+        }
+      ]
+    },
+    {
+      "id": "technical_production",
+      "title": "Technical Production Phase",
+      "timeline": "4-8 weeks before event",
+      "description": "Audio/visual systems, staging and set design, and power and infrastructure requirements",
+      "tasks": [
+        {
+          "id": "tp_1",
+          "task": "Finalize audio system design and specifications",
+          "role": "Technical Director",
+          "priority": "critical"
+        },
+        {
+          "id": "tp_2",
+          "task": "Complete lighting plot and equipment list",
+          "role": "Technical Director",
+          "priority": "critical"
+        },
+        {
+          "id": "tp_3",
+          "task": "Confirm video/projection requirements",
+          "role": "Technical Director",
+          "priority": "critical"
+        },
+        {
+          "id": "tp_4",
+          "task": "Finalize staging and set design",
+          "role": "Technical Director",
+          "priority": "critical"
+        },
+        {
+          "id": "tp_5",
+          "task": "Calculate power requirements and distribution",
+          "role": "Technical Director",
+          "priority": "critical"
+        },
+        {
+          "id": "tp_6",
+          "task": "Create technical equipment inventory",
+          "role": "Technical Director",
+          "priority": "high"
+        },
+        {
+          "id": "tp_7",
+          "task": "Schedule technical rehearsals",
+          "role": "Technical Director",
+          "priority": "high"
+        },
+        {
+          "id": "tp_8",
+          "task": "Coordinate with venue technical staff",
+          "role": "Technical Director",
+          "priority": "high"
+        },
+        {
+          "id": "tp_9",
+          "task": "Finalize rigging and safety plans",
+          "role": "Technical Director",
+          "priority": "critical"
+        },
+        {
+          "id": "tp_10",
+          "task": "Test all equipment and backup systems",
+          "role": "Technical Director",
+          "priority": "critical"
+        },
+        {
+          "id": "tp_11",
+          "task": "Create technical cue sheets",
+          "role": "Technical Director",
+          "priority": "high"
+        },
+        {
+          "id": "tp_12",
+          "task": "Establish equipment transportation plan",
+          "role": "Technical Director",
+          "priority": "high"
+        },
+        {
+          "id": "tp_13",
+          "task": "Prepare technical crew briefing materials",
+          "role": "Technical Director",
+          "priority": "medium"
+        },
+        {
+          "id": "tp_14",
+          "task": "Set up monitoring and communication systems",
+          "role": "Technical Director",
+          "priority": "high"
+        },
+        {
+          "id": "tp_15",
+          "task": "Create emergency technical procedures",
+          "role": "Technical Director",
+          "priority": "high"
+        },
+        {
+          "id": "tp_16",
+          "task": "Finalize cable runs and infrastructure",
+          "role": "Technical Director",
+          "priority": "high"
+        },
+        {
+          "id": "tp_17",
+          "task": "Schedule equipment delivery and setup",
+          "role": "Technical Director",
+          "priority": "high"
+        },
+        {
+          "id": "tp_18",
+          "task": "Prepare technical strike plan",
+          "role": "Technical Director",
+          "priority": "medium"
+        }
+      ]
+    },
+    {
+      "id": "crew_coordination",
+      "title": "Crew Coordination & Scheduling",
+      "timeline": "2-4 weeks before event",
+      "description": "Crew management, schedule optimization, and logistics coordination",
+      "tasks": [
+        {
+          "id": "cc_1",
+          "task": "Finalize crew call times and positions",
+          "role": "Stage Manager",
+          "priority": "critical"
+        },
+        {
+          "id": "cc_2",
+          "task": "Create and distribute crew call sheets",
+          "role": "Stage Manager",
+          "priority": "critical"
+        },
+        {
+          "id": "cc_3",
+          "task": "Establish crew communication protocols",
+          "role": "Stage Manager",
+          "priority": "high"
+        },
+        {
+          "id": "cc_4",
+          "task": "Coordinate crew transportation and parking",
+          "role": "Stage Manager",
+          "priority": "high"
+        },
+        {
+          "id": "cc_5",
+          "task": "Set up crew check-in procedures",
+          "role": "Stage Manager",
+          "priority": "high"
+        },
+        {
+          "id": "cc_6",
+          "task": "Create crew meal schedules",
+          "role": "Stage Manager",
+          "priority": "medium"
+        },
+        {
+          "id": "cc_7",
+          "task": "Establish crew safety briefing protocols",
+          "role": "Stage Manager",
+          "priority": "critical"
+        },
+        {
+          "id": "cc_8",
+          "task": "Prepare crew identification and credentials",
+          "role": "Stage Manager",
+          "priority": "high"
+        },
+        {
+          "id": "cc_9",
+          "task": "Set up crew rest areas and facilities",
+          "role": "Stage Manager",
+          "priority": "medium"
+        },
+        {
+          "id": "cc_10",
+          "task": "Create crew emergency contact lists",
+          "role": "Stage Manager",
+          "priority": "high"
+        },
+        {
+          "id": "cc_11",
+          "task": "Establish crew accountability systems",
+          "role": "Stage Manager",
+          "priority": "high"
+        },
+        {
+          "id": "cc_12",
+          "task": "Coordinate with union representatives",
+          "role": "Stage Manager",
+          "priority": "high"
+        },
+        {
+          "id": "cc_13",
+          "task": "Set up crew equipment and tool distribution",
+          "role": "Stage Manager",
+          "priority": "medium"
+        },
+        {
+          "id": "cc_14",
+          "task": "Create crew overtime and scheduling policies",
+          "role": "Stage Manager",
+          "priority": "medium"
+        },
+        {
+          "id": "cc_15",
+          "task": "Establish crew performance evaluation system",
+          "role": "Stage Manager",
+          "priority": "low"
+        },
+        {
+          "id": "cc_16",
+          "task": "Coordinate crew housing if required",
+          "role": "Stage Manager",
+          "priority": "medium"
+        },
+        {
+          "id": "cc_17",
+          "task": "Set up crew expense tracking system",
+          "role": "Stage Manager",
+          "priority": "low"
+        },
+        {
+          "id": "cc_18",
+          "task": "Prepare crew departure and checkout procedures",
+          "role": "Stage Manager",
+          "priority": "medium"
+        }
+      ]
+    },
+    {
+      "id": "show_day",
+      "title": "Show Day Execution & Post-Production",
+      "timeline": "Event day and immediate aftermath",
+      "description": "Load-in through final wrap-up, emphasizing real-time coordination and systematic documentation",
+      "tasks": [
+        {
+          "id": "sd_1",
+          "task": "Conduct pre-show safety briefing",
+          "role": "Stage Manager",
+          "priority": "critical"
+        },
+        {
+          "id": "sd_2",
+          "task": "Complete load-in and equipment setup",
+          "role": "Technical Director",
+          "priority": "critical"
+        },
+        {
+          "id": "sd_3",
+          "task": "Execute sound and lighting checks",
+          "role": "Technical Director",
+          "priority": "critical"
+        },
+        {
+          "id": "sd_4",
+          "task": "Confirm all crew positions and readiness",
+          "role": "Stage Manager",
+          "priority": "critical"
+        },
+        {
+          "id": "sd_5",
+          "task": "Test all communication systems",
+          "role": "Stage Manager",
+          "priority": "critical"
+        },
+        {
+          "id": "sd_6",
+          "task": "Conduct final technical rehearsal",
+          "role": "Technical Director",
+          "priority": "critical"
+        },
+        {
+          "id": "sd_7",
+          "task": "Brief all department heads",
+          "role": "Production Manager",
+          "priority": "critical"
+        },
+        {
+          "id": "sd_8",
+          "task": "Activate emergency response protocols",
+          "role": "Production Manager",
+          "priority": "critical"
+        },
+        {
+          "id": "sd_9",
+          "task": "Monitor real-time crew coordination",
+          "role": "Stage Manager",
+          "priority": "critical"
+        },
+        {
+          "id": "sd_10",
+          "task": "Execute run-of-show timeline",
+          "role": "Stage Manager",
+          "priority": "critical"
+        },
+        {
+          "id": "sd_11",
+          "task": "Coordinate intermission activities",
+          "role": "Stage Manager",
+          "priority": "high"
+        },
+        {
+          "id": "sd_12",
+          "task": "Manage real-time schedule changes",
+          "role": "Stage Manager",
+          "priority": "high"
+        },
+        {
+          "id": "sd_13",
+          "task": "Document any technical issues",
+          "role": "Technical Director",
+          "priority": "high"
+        },
+        {
+          "id": "sd_14",
+          "task": "Coordinate post-show strike activities",
+          "role": "Technical Director",
+          "priority": "critical"
+        },
+        {
+          "id": "sd_15",
+          "task": "Supervise equipment load-out",
+          "role": "Technical Director",
+          "priority": "critical"
+        },
+        {
+          "id": "sd_16",
+          "task": "Conduct crew checkout and dismissal",
+          "role": "Stage Manager",
+          "priority": "high"
+        },
+        {
+          "id": "sd_17",
+          "task": "Complete venue restoration",
+          "role": "Production Manager",
+          "priority": "critical"
+        },
+        {
+          "id": "sd_18",
+          "task": "Finalize equipment returns and inventory",
+          "role": "Technical Director",
+          "priority": "high"
+        },
+        {
+          "id": "sd_19",
+          "task": "Process crew timesheets and expenses",
+          "role": "Production Manager",
+          "priority": "medium"
+        },
+        {
+          "id": "sd_20",
+          "task": "Conduct post-event debrief meeting",
+          "role": "Production Manager",
+          "priority": "medium"
+        },
+        {
+          "id": "sd_21",
+          "task": "Document lessons learned and improvements",
+          "role": "Production Manager",
+          "priority": "medium"
+        },
+        {
+          "id": "sd_22",
+          "task": "Archive production documents",
+          "role": "Production Manager",
+          "priority": "low"
+        },
+        {
+          "id": "sd_23",
+          "task": "Submit final production report",
+          "role": "Production Manager",
+          "priority": "medium"
+        },
+        {
+          "id": "sd_24",
+          "task": "Close vendor accounts and final payments",
+          "role": "Production Manager",
+          "priority": "medium"
+        }
+      ]
+    }
+  ],
+  "emergency_protocols": [
+    {
+      "id": "ep_1",
+      "protocol": "Weather Emergency Procedures",
+      "description": "Immediate evacuation and shelter protocols"
+    },
+    {
+      "id": "ep_2",
+      "protocol": "Equipment Failure Response",
+      "description": "Backup systems activation and contingency plans"
+    },
+    {
+      "id": "ep_3",
+      "protocol": "Medical Emergency Response",
+      "description": "First aid and emergency services coordination"
+    },
+    {
+      "id": "ep_4",
+      "protocol": "Communication System Backup",
+      "description": "Alternative communication methods and protocols"
+    },
+    {
+      "id": "ep_5",
+      "protocol": "Power Failure Procedures",
+      "description": "Generator activation and power restoration steps"
+    },
+    {
+      "id": "ep_6",
+      "protocol": "Security Incident Response",
+      "description": "Threat assessment and security coordination"
+    }
+  ],
+  "roles": [
+    {
+      "id": "production_manager",
+      "name": "Production Manager",
+      "color": "#2563eb"
+    },
+    {
+      "id": "stage_manager",
+      "name": "Stage Manager",
+      "color": "#dc2626"
+    },
+    {
+      "id": "technical_director",
+      "name": "Technical Director",
+      "color": "#16a34a"
+    }
+  ]
+}
