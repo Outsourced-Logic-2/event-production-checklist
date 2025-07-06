@@ -201,8 +201,8 @@ class EventProductionChecklist {
             this.copyReport();
         });
 
-        document.getElementById('download-report').addEventListener('click', () => {
-            this.downloadReport();
+        document.getElementById('send-to-dbocl').addEventListener('click', () => {
+            this.sendToDBocl();
         });
 
         // Close modal when clicking outside
@@ -450,18 +450,34 @@ class EventProductionChecklist {
         }, 2000);
     }
 
-    downloadReport() {
+    sendToDBocl() {
         const content = document.getElementById('export-content').value;
-        const blob = new Blob([content], { type: 'text/plain' });
-        const url = URL.createObjectURL(blob);
+        const encodedContent = encodeURIComponent(content);
+        const dBoclUrl = `https://chatgpt.com/g/g-684ca7b3bce08191b258a72d6ffe76b9-dbocl-event-buddy`;
         
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = `event-production-checklist-${new Date().toISOString().split('T')[0]}.txt`;
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        URL.revokeObjectURL(url);
+        // Open in new tab
+        window.open(dBoclUrl, '_blank');
+        
+        // Copy content to clipboard for easy pasting
+        navigator.clipboard.writeText(content).then(() => {
+            // Show feedback
+            const btn = document.getElementById('send-to-dbocl');
+            const originalText = btn.textContent;
+            btn.textContent = 'Opened & Copied!';
+            
+            setTimeout(() => {
+                btn.textContent = originalText;
+            }, 2000);
+        }).catch(() => {
+            // Fallback if clipboard API fails
+            const btn = document.getElementById('send-to-dbocl');
+            const originalText = btn.textContent;
+            btn.textContent = 'Opened!';
+            
+            setTimeout(() => {
+                btn.textContent = originalText;
+            }, 2000);
+        });
     }
 
     resetProgress() {
