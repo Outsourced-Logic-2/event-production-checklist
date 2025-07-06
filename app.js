@@ -126,6 +126,7 @@ class EventProductionChecklist {
         
         this.completedTasks = new Set();
         this.currentFilter = 'all';
+        this.loadState();
         this.init();
     }
 
@@ -134,6 +135,38 @@ class EventProductionChecklist {
         this.renderEmergencyProtocols();
         this.setupEventListeners();
         this.updateProgress();
+        
+        // Set saved filter state
+        const roleFilter = document.getElementById('role-filter');
+        if (roleFilter) {
+            roleFilter.value = this.currentFilter;
+            this.filterTasks();
+        }
+    }
+
+    loadState() {
+        try {
+            const savedState = localStorage.getItem('eventProductionChecklist');
+            if (savedState) {
+                const state = JSON.parse(savedState);
+                this.completedTasks = new Set(state.completedTasks || []);
+                this.currentFilter = state.currentFilter || 'all';
+            }
+        } catch (error) {
+            console.warn('Error loading saved state:', error);
+        }
+    }
+
+    saveState() {
+        try {
+            const state = {
+                completedTasks: Array.from(this.completedTasks),
+                currentFilter: this.currentFilter
+            };
+            localStorage.setItem('eventProductionChecklist', JSON.stringify(state));
+        } catch (error) {
+            console.warn('Error saving state:', error);
+        }
     }
 
     setupEventListeners() {
@@ -141,6 +174,7 @@ class EventProductionChecklist {
         document.getElementById('role-filter').addEventListener('change', (e) => {
             this.currentFilter = e.target.value;
             this.filterTasks();
+            this.saveState();
         });
 
         // Export button
@@ -269,6 +303,7 @@ class EventProductionChecklist {
         }
         
         this.updateProgress();
+        this.saveState();
     }
 
     updateProgress() {
@@ -443,6 +478,7 @@ class EventProductionChecklist {
             });
             
             this.updateProgress();
+            this.saveState();
         }
     }
 }
