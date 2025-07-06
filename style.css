@@ -943,8 +943,8 @@ select.form-control {
 }
 
 .task-role.stage-manager {
-  background-color: rgba(184, 132, 94, 0.1);
-  color: #b8845e;
+  background-color: rgba(20, 184, 166, 0.1);
+  color: #14b8a6;
 }
 
 .task-role.technical-director {
@@ -977,8 +977,8 @@ select.form-control {
 }
 
 .task-priority.low {
-  background-color: rgba(116, 116, 125, 0.1);
-  color: #74747d;
+  background-color: rgba(168, 162, 216, 0.1);
+  color: #a8a2d8;
 }
 
 /* Emergency Protocols */
